@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "明天见",
 
 	// 个人签名
-	bio: "花楼云雨无凭",
+	bio: "画楼云雨无凭",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
