@@ -43,7 +43,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:group",
 		children: [
 			// 友链
-			LinkPresets.Friends,
+			//LinkPresets.Friends,
 
 			// 留言
 			LinkPresets.Guestbook,
@@ -89,10 +89,9 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:info",
 		children: [
 			// 打赏
-			LinkPresets.Sponsor,
-
+			//LinkPresets.Sponsor,
 			// 关于页面
-			LinkPresets.About,
+			//LinkPresets.About,
 		],
 	});
 
@@ -105,22 +104,22 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "",
+				url: "https://github.com/booat",
 				external: true,
 				icon: "fa7-brands:github",
 			},
-			{
-				name: "Gitee",
-				url: "https://github.com/booat",
-				external: true,
-				icon: "fa7-brands:gitee",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: false,
-				icon: "material-symbols:docs",
-			},
+			// {
+			// 	name: "Gitee",
+			// 	url: "https://github.com/booat",
+			// 	external: true,
+			// 	icon: "fa7-brands:gitee",
+			// },
+			// {
+			// 	name: "Firefly文档",
+			// 	url: "https://docs-firefly.cuteleaf.cn",
+			// 	external: false,
+			// 	icon: "material-symbols:docs",
+			// },
 		],
 	});
 
